@@ -1,18 +1,40 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+using Valve.VR.InteractionSystem;
 
 public class GameManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [Header("籃球數量")]
+    public Text textBallCount;
+    [Header("分數")]
+    public Text textScore;
+
+    private int ballCount = 6;
+    private int score;
+    public void UseBall(GameObject ball)
     {
-        
+        Destroy(ball.GetComponent<Throwable>());
+        Destroy(ball.GetComponent<Interactable>());
+
+        ballCount --;
+        textBallCount.text = "橄欖球數量 : " + ballCount + " / 6";
+
+
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        score ++;
+
+        textScore.text = "2分進球數 : " + score;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void Reaplay()
     {
-        
+        SceneManager.LoadScene("VR_Game");
+    }
+    public void Quit()
+    {
+        Application.Quit();
     }
 }
