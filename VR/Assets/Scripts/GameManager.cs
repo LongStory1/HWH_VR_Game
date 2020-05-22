@@ -39,6 +39,7 @@ public class GameManager : MonoBehaviour
 
     public void Reaplay()
     {
+        Destroy(FindObjectOfType<Player>().gameObject);
         SceneManager.LoadScene("VR_Game");
     }
     public void Quit()
