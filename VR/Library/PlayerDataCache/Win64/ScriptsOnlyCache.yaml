@@ -17,6 +17,8 @@ ScriptsOnlyBuild:
     - Valve.VR.InteractionSystem.Player
     - Valve.VR.InteractionSystem.RenderModel
     - Valve.VR.InteractionSystem.SnapTurn
+    - Valve.VR.InteractionSystem.Teleport
+    - Valve.VR.InteractionSystem.TeleportArc
     - Valve.VR.InteractionSystem.TeleportPoint
     - Valve.VR.InteractionSystem.Throwable
     - Valve.VR.InteractionSystem.UIElement
@@ -101,87 +103,91 @@ ScriptsOnlyBuild:
     - Class: 111
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11198}
+      Script: {instanceID: 11224}
     - Class: 114
-      Script: {instanceID: 11214}
+      Script: {instanceID: 11240}
     - Class: 114
-      Script: {instanceID: 11294}
+      Script: {instanceID: 11268}
     - Class: 114
-      Script: {instanceID: 11362}
+      Script: {instanceID: 11320}
     - Class: 114
-      Script: {instanceID: 11400}
+      Script: {instanceID: 11374}
     - Class: 114
-      Script: {instanceID: 11450}
+      Script: {instanceID: 11388}
     - Class: 114
-      Script: {instanceID: 11474}
+      Script: {instanceID: 11426}
     - Class: 114
-      Script: {instanceID: 11508}
+      Script: {instanceID: 11476}
     - Class: 114
-      Script: {instanceID: 11516}
+      Script: {instanceID: 11500}
     - Class: 114
-      Script: {instanceID: 11552}
+      Script: {instanceID: 11534}
     - Class: 114
-      Script: {instanceID: 11564}
+      Script: {instanceID: 11542}
     - Class: 114
-      Script: {instanceID: 11618}
+      Script: {instanceID: 11578}
     - Class: 114
-      Script: {instanceID: 11808}
+      Script: {instanceID: 11590}
     - Class: 114
-      Script: {instanceID: 11860}
+      Script: {instanceID: 11644}
     - Class: 114
-      Script: {instanceID: 11912}
+      Script: {instanceID: 11834}
     - Class: 114
-      Script: {instanceID: 11916}
+      Script: {instanceID: 11886}
     - Class: 114
-      Script: {instanceID: 12084}
+      Script: {instanceID: 11938}
     - Class: 114
-      Script: {instanceID: 12168}
+      Script: {instanceID: 11942}
     - Class: 114
-      Script: {instanceID: 12186}
+      Script: {instanceID: 12110}
     - Class: 114
-      Script: {instanceID: 12214}
+      Script: {instanceID: 12194}
     - Class: 114
-      Script: {instanceID: 12320}
+      Script: {instanceID: 12212}
     - Class: 114
-      Script: {instanceID: 12354}
+      Script: {instanceID: 12240}
     - Class: 114
-      Script: {instanceID: 12468}
+      Script: {instanceID: 12346}
     - Class: 114
-      Script: {instanceID: 12520}
+      Script: {instanceID: 12380}
     - Class: 114
-      Script: {instanceID: 12580}
+      Script: {instanceID: 12494}
     - Class: 114
-      Script: {instanceID: 12716}
+      Script: {instanceID: 12546}
     - Class: 114
-      Script: {instanceID: 12718}
+      Script: {instanceID: 12606}
     - Class: 114
-      Script: {instanceID: 12808}
+      Script: {instanceID: 12742}
     - Class: 114
-      Script: {instanceID: 12812}
+      Script: {instanceID: 12744}
     - Class: 114
-      Script: {instanceID: 12832}
+      Script: {instanceID: 12834}
     - Class: 114
-      Script: {instanceID: 12854}
+      Script: {instanceID: 12838}
     - Class: 114
-      Script: {instanceID: 12890}
+      Script: {instanceID: 12858}
     - Class: 114
-      Script: {instanceID: 13036}
+      Script: {instanceID: 12880}
     - Class: 114
-      Script: {instanceID: 13052}
+      Script: {instanceID: 12916}
     - Class: 114
-      Script: {instanceID: 13150}
+      Script: {instanceID: 13062}
     - Class: 114
-      Script: {instanceID: 13200}
+      Script: {instanceID: 13078}
     - Class: 114
-      Script: {instanceID: 13314}
+      Script: {instanceID: 13176}
     - Class: 114
-      Script: {instanceID: 13402}
+      Script: {instanceID: 13226}
     - Class: 114
-      Script: {instanceID: 13420}
+      Script: {instanceID: 13340}
     - Class: 114
-      Script: {instanceID: 13486}
+      Script: {instanceID: 13428}
     - Class: 114
-      Script: {instanceID: 13510}
+      Script: {instanceID: 13446}
+    - Class: 114
+      Script: {instanceID: 13512}
+    - Class: 114
+      Script: {instanceID: 13536}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
